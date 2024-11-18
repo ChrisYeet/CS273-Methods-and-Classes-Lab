@@ -17,7 +17,7 @@ public class Die {
   
   private void reRoll() {
   currentValue = (int) (Math.random() * 6) + 1;
-//  could add another hint for using more math methods
+//  TODO: could add another hint for using more math methods
   }
   
   public void roll(Graphics g) {
@@ -34,7 +34,7 @@ public class Die {
     g.drawString(Integer.toString(currentValue), 20, 20);
   }
   
-//  Didnt specify you return something / nothing
+//  Didn't specify you return something / nothing
   private void drawSpot(int xCord, int yCord, Graphics g) {
     g.fillOval(xCord, yCord, 10, 10);
   }
