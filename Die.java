@@ -31,7 +31,27 @@ public class Die {
     g.setColor(Color.white);
     g.fillRect(1,1,49,49);
     g.setColor(Color.black);
-    g.drawString(Integer.toString(currentValue), 20, 20);
+//    g.drawString(Integer.toString(currentValue), 20, 20);
+    pips(g);
+  }
+  
+//  too lazy to do but basically should create new function to do pips tho not required
+  private void pips(Graphics g) {
+    switch(currentValue) {
+      case 1:
+        g.fillOval(xCord + (size/2), yCord + (size/2), 10, 10);
+        return;
+      case 2:
+        return;
+      case 3:
+        return;
+      case 4:
+        return;
+      case 5:
+        return;
+      case 6:
+        return;
+    }
   }
   
 //  Didn't specify you return something / nothing
