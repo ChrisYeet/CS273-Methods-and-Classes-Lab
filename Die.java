@@ -39,7 +39,7 @@ public class Die {
   private void pips(Graphics g) {
     switch(currentValue) {
       case 1:
-        g.fillOval(xCord + (size/2), yCord + (size/2), 10, 10);
+        g.fillOval(xCord + (size/2), yCord + (size/2), size / 3, 10 / 3);
         return;
       case 2:
         return;
