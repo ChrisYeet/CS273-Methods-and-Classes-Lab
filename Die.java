@@ -35,10 +35,14 @@ public class Die {
   }
   
 //  Didn't specify you return something / nothing
+//  Tell students to look at table
   private void drawSpot(int xCord, int yCord, Graphics g) {
     g.fillOval(xCord, yCord, 10, 10);
   }
   
+//  Made the rest of these due to not working properly with IntelliJ
+//  Alternatively, just add the Run[#] when working on it for faster integration
+//  if not using BlueJ
   public void setSize(int newSize) {
     this.size = newSize;
   }
